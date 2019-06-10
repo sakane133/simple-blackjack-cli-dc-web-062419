@@ -31,6 +31,10 @@ def initial_round
   total
 end
 
+def invalid_command
+  puts "Please enter a valid command"
+end
+
 def hit?(total)
   prompt_user
   input = get_user_input
@@ -39,11 +43,10 @@ def hit?(total)
   elsif input = "s"
     total
   else
+    invalid_command
 end
 
-def invalid_command
-  puts "Please enter a valid command"
-end
+
 
 #####################################################
 # get every test to pass before coding runner below #
