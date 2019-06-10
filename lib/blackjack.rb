@@ -35,7 +35,7 @@ def hit?
   prompt_user
   input = get_user_input
   if input = "h"
-    
+    display_card_total
 end
 
 def invalid_command
