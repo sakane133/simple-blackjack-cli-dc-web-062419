@@ -30,7 +30,7 @@ end
 def hit?
   deal_card
   deal_card
-  sum = deal_card + deal_card
+ return deal_card + deal_card
 end
 
 def invalid_command
