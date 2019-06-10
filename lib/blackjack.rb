@@ -28,8 +28,6 @@ def initial_round
 end
 
 def hit?
-  deal_card
-  deal_card
  return deal_card + deal_card
 end
 
