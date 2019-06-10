@@ -34,7 +34,8 @@ end
 def hit?
   prompt_user
   input = get_user_input
-  if input = "s"
+  if input = "h"
+    
 end
 
 def invalid_command
