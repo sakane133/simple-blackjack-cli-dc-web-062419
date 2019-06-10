@@ -28,8 +28,9 @@ def initial_round
 end
 
 def hit?
+  deal_card
+  deal_card
   sum = deal_card + deal_card
-  sum
 end
 
 def invalid_command
