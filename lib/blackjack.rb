@@ -31,10 +31,6 @@ def initial_round
   total
 end
 
-def invalid_command
-  puts "Please enter a valid command"
-end
-
 def hit?(total)
   prompt_user
   input = get_user_input
@@ -46,6 +42,10 @@ def hit?(total)
  else
     invalid_command
   end
+end
+
+def invalid_command
+  puts "Please enter a valid command"
 end
 
 
