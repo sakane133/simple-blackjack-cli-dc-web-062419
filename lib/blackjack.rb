@@ -25,7 +25,8 @@ end
 
 def initial_round
   one = deal_card
-  total = one + deal_card
+  two = deal_card
+  total = one + two
   display_card_total(total)
 end
 
