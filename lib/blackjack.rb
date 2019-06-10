@@ -36,12 +36,11 @@ def invalid_command
 end
 
 def hit?(total)
-  puts #{prompt_user}
-  input = get_user_input
-  puts input
-  if input = "h"
+  prompt_user}
+  get_user_input
+  if get_user_input = "h"
    total+= deal_card
-  elsif input = "s"
+  elsif get_user_input = "s"
      total
   else
     invalid_command
