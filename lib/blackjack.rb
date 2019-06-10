@@ -40,11 +40,11 @@ def hit?(total)
   input = get_user_input
   input
   if input = "h"
-    puts total+= deal_card
+   total+= deal_card
   elsif input = "s"
-    puts total
+     total
   else
-    puts invalid_command
+    invalid_command
 end
 
 
